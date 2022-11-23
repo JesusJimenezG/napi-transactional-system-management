@@ -1,0 +1,25 @@
+{
+  "name": "transactional_database_system",
+  "productName": "Transactional Database System",
+  "version": "0.1.0",
+  "description": "Management system for transactional databases.",
+  "main": "main.js",
+  "gypfile": true,
+  "scripts": {
+    "start-electron": "electron .",
+    "build": "node-gyp rebuild",
+    "clean": "node-gyp clean"
+  },
+  "author": "Jesus Jimenez",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^21.3.0",
+    "nan": "^2.17.0",
+    "node-addon-api": "^5.0.0",
+    "toastify-js": "^1.12.0"
+  },
+  "devDependencies": {
+    "node-gyp": "^9.3.0",
+    "standard": "^17.0.0"
+  }
+}
