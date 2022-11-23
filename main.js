@@ -1,5 +1,6 @@
 const path = require('path');
 const { app, BrowserWindow } = require('electron');
+const dotenv = require('dotenv').config();
 
 const TDS = require('./modules/index');
 

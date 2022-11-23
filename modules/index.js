@@ -1,4 +1,4 @@
-var TDS = require('../build/Release/TDS.node');
+var TDS = require('../build/Debug/TDS.node');
 
 const producto = {
     "id": "1",
